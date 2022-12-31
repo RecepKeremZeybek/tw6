@@ -62,3 +62,20 @@ header .menu a.active{
 .banner p{
     font-size: 1.1rem;
 }
+/* subscribe */
+
+.subscribe{
+    height: 5.75rem;
+    background-color: #35424a;
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.subscribe .right input{
+    padding: 5px;
+    width: 230px;
+}

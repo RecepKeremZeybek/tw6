@@ -129,8 +129,21 @@ footer p{
     padding: 1.5rem 2.5rem;
     display: flex;
 }
+.about-content h4{
+    padding-bottom: 2rem;
+}
+.about-content p{
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.about-content .set{
+    background-color: #35424a;
+    color:white;
+    padding: 1rem;
+}
 .about-content .side-left{
     width: 70%;
+    padding-right: 3rem;
 }
 .about-content .side-right{
     width: 30%;

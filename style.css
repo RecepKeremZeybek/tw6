@@ -125,7 +125,16 @@ footer p{
 /* home page end */
 
 /* About Page start */
-
+.about-content{
+    padding: 1.5rem 2.5rem;
+    display: flex;
+}
+.about-content .side-left{
+    width: 70%;
+}
+.about-content .side-right{
+    width: 30%;
+}
 
 /* about page end */
 

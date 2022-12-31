@@ -161,6 +161,27 @@ footer p{
 
 
 /* services page start */
+.side-right label{
+    display:block;
+}
+.side-right input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding:5px;
+}
+.side-right button{
+    background-color: #e8491d;
+    color:white;
+    padding: .6rem .8rem;
+    border-style: none;
+}
+.side-left .lesson{
+    background-color: #e6e6e6;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+
 /* services page end */
 
 

@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-/* ----------Home Page Start------------- */
+/* ---------- Header start ------------- */
 header{
     background-color: #35424a;
     height:5rem;
@@ -14,8 +14,24 @@ header{
     align-items: center;
     padding: 0 1rem;
 }
+
+/* header sol */
+
 header .logo h1{
     font-size: 1.7rem;
     font-weight: bold;
     color: white;
+}
+header .logo h1 span{
+    color: #a9508b;
+}
+
+/* header sag */
+
+header .menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 1rem;
 }

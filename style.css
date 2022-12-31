@@ -149,6 +149,13 @@ footer p{
     width: 30%;
 }
 
+/* footer */
+
+.about-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 /* about page end */
 
 

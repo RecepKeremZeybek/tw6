@@ -40,3 +40,25 @@ header .menu a.active{
     color: #a9508b;
     font-weight: bolder;
 }
+
+/* banner */
+
+.banner{
+    height: 360px;
+    width: 100%;
+    background-image: url("./images/showcase.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.banner h2{
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+.banner p{
+    font-size: 1.1rem;
+}

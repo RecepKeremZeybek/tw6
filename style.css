@@ -79,3 +79,12 @@ header .menu a.active{
     padding: 5px;
     width: 230px;
 }
+.subscribe .right button{
+    padding: 7px;
+    width: 90px;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+}
+
+

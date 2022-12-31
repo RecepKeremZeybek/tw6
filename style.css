@@ -84,7 +84,7 @@ header .menu .active{
 }
 /* content  */
 .content{
-    height: 300px;
+    height: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

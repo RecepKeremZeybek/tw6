@@ -1,38 +1,33 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body, html{
+body,html{
     width: 100%;
-    height: 100vh;
-
+    height: 100%;
 }
-/* ---------- Header start ------------- */
+/* --------HOME PAGE START------ */
 header{
     background-color: #35424a;
-    height:5rem;
+    height: 5rem;
     border-bottom: 2px solid #a9508b;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
 }
-
 /* header sol */
-
 header .logo h1{
     font-size: 1.7rem;
     font-weight: bold;
     color: white;
 }
 header .logo h1 span{
-    color: #a9508b;
+    color:#a9508b;
 }
-
-/* header sag */
-
+/* header sağ  */
 header .menu a{
     text-decoration: none;
     font-size: 1rem;
@@ -41,13 +36,11 @@ header .menu a{
     padding: 0 1rem;
     text-transform: uppercase;
 }
-header .menu a.active{
-    color: #a9508b;
+header .menu .active{
+    color:#a9508b;
     font-weight: bolder;
 }
-
-/* banner */
-
+/* banner  */
 .banner{
     height: 360px;
     width: 100%;
@@ -67,8 +60,7 @@ header .menu a.active{
 .banner p{
     font-size: 1.1rem;
 }
-/* subscribe */
-
+/* subscribe  */
 .subscribe{
     height: 5.75rem;
     background-color: #35424a;
@@ -79,10 +71,9 @@ header .menu a.active{
     align-items: center;
     padding: 0 1rem;
 }
-
 .subscribe .right input{
     padding: 5px;
-    width: 230px;
+    width: 240px;
 }
 .subscribe .right button{
     padding: 7px;
@@ -91,9 +82,7 @@ header .menu a.active{
     color: white;
     border: none;
 }
-
-/* content */
-
+/* content  */
 .content{
     height: 300px;
     display: flex;
@@ -105,10 +94,9 @@ header .menu a.active{
     width: 75px;
 }
 .content .services h3{
-   padding: 1rem;
+    padding: 1rem;
 }
-
-/* footer */
+/* footer  */
 footer{
     height: 125px;
     background-color: #35424a;
@@ -116,15 +104,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 footer p{
     margin-bottom: 10px;
 }
-/* home page end */
-
-/* About Page start */
+/* --------HOME PAGE END------ */
+/* --------ABOUT PAGE START------ */
 .about-content{
     padding: 1.5rem 2.5rem;
     display: flex;
@@ -138,7 +123,7 @@ footer p{
 }
 .about-content .set{
     background-color: #35424a;
-    color:white;
+    color: white;
     padding: 1rem;
 }
 .about-content .side-left{
@@ -147,31 +132,25 @@ footer p{
 }
 .about-content .side-right{
     width: 30%;
+    height: 330px;
 }
-
-/* footer */
-
-.about-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* footer  */
+.about-content{
+    height: 100%;
 }
-/* about page end */
-
-
-
-/* services page start */
+/* --------ABOUT PAGE END------ */
+/* --------SERVICES PAGE START------ */
 .side-right label{
-    display:block;
+    display: block;
 }
 .side-right input, textarea{
     width: 100%;
     margin-bottom: 10px;
-    padding:5px;
+    padding: 5px;
 }
 .side-right button{
     background-color: #e8491d;
-    color:white;
+    color: white;
     padding: .6rem .8rem;
     border-style: none;
 }
@@ -179,10 +158,9 @@ footer p{
     background-color: #e6e6e6;
     padding: 1rem;
     border: 1px solid #ccc;
+    margin: 5px 0;
 }
-
-
-/* services page end */
+/* --------SERVICES PAGE END------ */
 
 
 
